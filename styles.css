@@ -1,0 +1,159 @@
+* {
+    font-family: Roboto;
+    margin: 0px;
+    /* outline: 1px solid salmon */
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.header-list{
+    display: flex;
+    /* flex: 1; */
+    justify-content: right;
+    gap: 20px;
+}
+
+.header.logo {
+    display: flex;
+    flex: 1;
+}
+
+.text { 
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 15px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 0px 300px;
+    display: flex;
+    gap: 50px;
+    border-top: 85px solid #1F2937;
+    border-bottom: 100px solid #1F2937;
+    justify-content: space-between;
+}
+
+.hero-left {
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 7px 21px;
+    border: 0px;
+    text-align: center;
+    justify-content: left;
+    width: 100px;
+}
+
+.main {
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.main-panels {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.panel-image {
+    border: 5px solid #3882F6; 
+    border-radius: 15px;
+}
+
+.panel-text {
+    text-align: center;
+}
+
+.main {
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.main-panels {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 90px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 150px;
+}
+
+.panel-image {
+    border: 5px solid #3882F6; 
+    border-radius: 15px;
+}
+
+.panel-text {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 300px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+    font-style: italic;
+}
+
+.quote-attributor {
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
